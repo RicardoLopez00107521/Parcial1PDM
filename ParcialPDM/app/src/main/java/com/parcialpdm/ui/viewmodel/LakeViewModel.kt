@@ -19,7 +19,7 @@ class LakeViewModel(private val repository: LakeRepository): ViewModel() {
 
     fun addLakes(lake:LakeModel) = repository.addLakes(lake)
 
-    fun createMovie() {
+    fun createLake() {
         if (!validateData()) {
             status.value = WRONG_INFORMATION
             return

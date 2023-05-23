@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeLakeFragment">
+
+    <fragment
+        android:id="@+id/homeLakeFragment"
+        android:name="com.parcialpdm.ui.lakes.homelakesfragment.HomeLakeFragment"
+        android:label="fragment_home_lake"
+        tools:layout="@layout/fragment_home_lake" >
+        <action
+            android:id="@+id/action_homeLakeFragment_to_descriptionLakeFragment"
+            app:destination="@id/descriptionLakeFragment" />
+        <action
+            android:id="@+id/action_homeLakeFragment_to_addNewLakeFragment"
+            app:destination="@id/addNewLakeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/descriptionLakeFragment"
+        android:name="com.parcialpdm.ui.lakes.descriptionlakesfragment.DescriptionLakeFragment"
+        android:label="fragment_description_lake"
+        tools:layout="@layout/fragment_description_lake" />
+    <fragment
+        android:id="@+id/addNewLakeFragment"
+        android:name="com.parcialpdm.ui.lakes.addnewlake.AddNewLakeFragment"
+        android:label="fragment_add_new_lake"
+        tools:layout="@layout/fragment_add_new_lake" />
+</navigation>

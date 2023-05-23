@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin">20dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">16dp</dimen>
+    <dimen name="image_square_size">140dp</dimen>
+    <dimen name="normal_font_size">20sp</dimen>
+    <dimen name="tittle_font_size">35sp</dimen>
+    <dimen name="dimen_linearlayout_margin">10dp</dimen>
+    <dimen name="default_top_bottom_margin">30dp</dimen>
+    <dimen name="default_start_end_margin">15dp</dimen>
+</resources>

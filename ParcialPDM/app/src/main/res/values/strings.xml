@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ParcialPDM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_item_lake_name">Lago de Coatepeque</string>
+    <string name="default_surface_lake">24 km2</string>
+    <string name="lakes_home_fragment">Lagos</string>
+    <string name="hint_name">Nombre del lago</string>
+    <string name="surface_hint">Superficie del lago</string>
+    <string name="add_text_button">Añadir lago</string>
 </resources>
